@@ -1,0 +1,164 @@
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+/* =========================      Edit kanva bodi      =============================== */
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+     /* min-height: 3000px;  */
+}
+.block{
+    padding: 0;
+    background-color: #000638;
+    margin: 1;
+}
+/* =========================       Navihasi BAR       =============================== */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgb(0, 54, 136);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    width: 100%;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 9);
+
+    
+}
+.nav .navlogo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+ .nav .nav1 a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 0 1rem ;
+ }
+ .nav .nav1 a:hover {
+    color: #0016e0;
+ }
+ .nav .nav1 a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #fff;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+ }
+ .nav .nav1 a:hover::after {
+    transform: scaleX(0.5);
+ }
+.nav .nav2 a {
+    color: #fff;
+    margin: 0 1rem ;
+    font-size: 1.4rem;
+}
+.nav .nav2 a:hover{
+    color: #007be0;
+}
+/* =========================       EDIT BAGIAN DAFTAR ISI      =============================== */
+
+.section {
+    background-color: #000638;
+    padding-top: 3rem;
+}
+/* 
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #000c35;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+*/
+.column {
+    float: left;
+    padding: 100px;
+    
+}
+.column.side {
+    width: 20%;
+    
+}
+.column.side h2{
+    color: #ffffff;
+    font-size: 1.5rem;
+    
+}
+.column.side img {
+    border-radius: 50px; 
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 100);
+   
+}
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+.section{
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 9);
+
+}
+@media screen and (max-width: 600px)
+{
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* edit  */
+.clm1{
+    float: left;
+}
+.clm1.sid1 h2{
+    color: #ffffff;
+    font-size: 1.5rem;
+    
+}
+.clm1.sid1 img {
+    border-radius: 50px; 
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 100);
+   
+}
+/* =========================     EDIT ALAMAT AKHIR      =============================== */
+
+
+.footer {
+    background-color: #333;
+    padding: 2rem;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.footer span {
+    color: rgb(255, 136, 0);
+}
+.garis {
+    background-color: #0000;
+    color: black;
+}
+.nama {
+    color: rgb(133, 133, 133);
+    font-size: 16px;
+    
+}
+

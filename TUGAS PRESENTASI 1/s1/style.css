@@ -1,0 +1,163 @@
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+/* =========================      Edit kanva bodi      =============================== */
+
+body {
+    background-color: rgb(29, 29, 29);
+    color: white;
+     /* min-height: 3000px;  */
+}
+
+/* =========================       Navihasi BAR       =============================== */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgb(0, 86, 136);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    width: 100%;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 9);
+
+    
+}
+.nav .navlogo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    font-style: italic;
+
+}
+.nav .navlogo span {
+    color: #008ee0;
+}
+ .nav .nav1 a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 0 1rem ;
+ }
+ .nav .nav1 a:hover {
+    color: #0077ff;
+ }
+ .nav .nav1 a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #fff;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+ }
+ .nav .nav1 a:hover::after {
+    transform: scaleX(0.5);
+ }
+.nav .nav2 a {
+    color: #fff;
+    margin: 0 1rem ;
+    font-size: 1.4rem;
+}
+.nav .nav2 a:hover{
+    color: #003e70;
+}
+/* =========================       EDIT BAGIAN DAFTAR ISI      =============================== */
+
+.sec {
+    min-height: 60vh;
+    display: flex;
+    align-items: center; 
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-size: 1.5rem;
+
+
+}
+.sec1 {
+    min-height: 40vh;
+    background-color: #000913;
+    
+}
+
+.column  {
+    float: left;
+    padding: 8rem;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 9);
+
+}
+
+.column.side {
+    width: 50%;
+    
+}
+.visimisi{
+    color: #60b2ff;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.visimisi1{
+    padding: 1rem;
+    width: 30rem;
+}
+.sd{
+    margin: 0.6rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================     EDIT ALAMAT AKHIR      =============================== */
+
+.footer {
+    background-color: #333;
+    padding: 2rem;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.footer span {
+    color: rgb(0, 110, 255);
+}
+.garis {
+    background-color: #0000;
+    color: black;
+}
+.nama {
+    color: rgb(133, 133, 133);
+    font-size: 16px;
+    
+}
+
