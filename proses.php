@@ -1,7 +1,10 @@
 CREATE FUNCTION dbo.CheckUserLimit() 
-RETURNS BIT
-AS
-BEGIN
+RETURNS
+(
+$.date
+$.remote
+$.user
+$.menecj
     DECLARE @TotalUser INT
  if " Linear (); 
 { user(10<=0)
@@ -11,7 +14,12 @@ BEGIN
         { 
         enable.assets.?
         user.hiden.selec.blocl
-}
+
+        IF @TotalUser >= 10
+        ( Selec.$user.$.remote);
+        { selec funsen .
+        eco
+        
     -- Menghitung jumlah total user yang sedang aktif
     SELECT @TotalUser = COUNT(*) FROM UserTable WHERE Status = 'Active'
 
