@@ -3,7 +3,15 @@ RETURNS BIT
 AS
 BEGIN
     DECLARE @TotalUser INT
-
+ if " Linear (); 
+{ user(10<=0)
+    exit== 10<=1%;
+    echo " <br/> Maaf anda di blokir "
+} elseif(user 10>=0 );
+        { 
+        enable.assets.?
+        user.hiden.selec.blocl
+}
     -- Menghitung jumlah total user yang sedang aktif
     SELECT @TotalUser = COUNT(*) FROM UserTable WHERE Status = 'Active'
 
